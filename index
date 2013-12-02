@@ -213,23 +213,6 @@
                 </div>
 
 
-                <div class="message-content">
-                    <div class="activity-action">
-                        <i class="fa fa-comments-o"></i>Olga commented on a <a href="#">status</a>.
-                        <span class="activity-time">17:00</span>
-                    </div>
-                    <div class="activity-cover">
-                        <div class="message-top">
-                            <span class="message-top-ava"><img src="images/avatar-50-50.jpg" alt="test"></span>
-                            <div class="message-top-right">
-                                <a href="#" class="owner-name">British Council Ukraine </a>
-                            </div>
-                        </div>
-                        <div class="message-content clearfix">
-                            <div class="message-desc"> Sicily. Almost Indian summer!</div>
-                        </div>
-                    </div>
-                </div>
 
 
 
