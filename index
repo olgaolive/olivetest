@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>VAC 2.0</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!-- navbar -->
+<div class="navbar navbar-default navbar-static-top">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/vac-logo.png" alt="VAC"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="divided"></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div><!--/.nav-collapse -->
+</div>
+
+
+
+<div class="sidebar panel-collapse">
+    <div class="profile pull-left clearfix">
+        <span class="col-lg-2"><img src="images/avatar-small.jpg" alt="test"></span>
+    </div>
+
+    <p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-cloud"></span></a></p>
+    <p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span></a></p>
+    <p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-edit"></span></span></a></p>
+<p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></p>
+<p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-hdd"></span></a></p>
+
+<div class="sub-nav-sidebar">
+    <span class="glyphicon glyphicon-info-sign"></span>
+</div>
+</div>
+
+<div class="sidebar panel-expand" style="margin-top: 400px; display:none">
+    <div class="profile pull-left clearfix">
+        <span class="col-lg-2"><img src="images/avatar-small.jpg" alt="test"></span>
+    <span class="col-lg-10">
+      <h2>Sherlock Holmes</h2>
+      <ul class="row">
+          <li><a href="#"><span class="glyphicon glyphicon-cog"></span> my profile</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> log out</a></li>
+      </ul>
+    </span>
+    </div>
+
+    <p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-cloud"></span><span class="name">My data center</span></a></p>
+    <p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span><span class="name">My social networks</span></a></p>
+    <p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-edit"></span></span><span class="name">My blogs</span></a></p>
+<p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-envelope"></span><span class="name">My mail</span></a></p>
+<p class="feature clearfix"><a href="#"><span class="glyphicon glyphicon-hdd"></span><span class="name">My virtual machine</span></a></p>
+
+<div class="sub-nav-sidebar">
+    <span class="glyphicon glyphicon-info-sign"></span>
+    <a href="#">about</a>
+    <a href="#">support</a>
+    <a href="#">contact</a>
+</div>
+
+</div>
+
+
+<div class="row nav2">
+
+<div class="col-lg-4">
+    <input name="" type="text" class="input-lg posthere" value="TYPE POST HERE">
+</div>
+
+<div class="col-lg-8" style="display:none">
+    <span class="notyet pull-left"><span class="glyphicon glyphicon-bullhorn"></span> You have not yet added <strong>any social network</strong>. Add, please : </span>
+    <button class="btn btn-default pull-left" type="button">
+        <span class="glyphicon glyphicon-plus"></span>
+    </button>
+</div>
+
+<div class="col-lg-8">
+    <ul class="accounts">
+        <li>
+            <a href="#">
+                <img src="images/avatar-soc-net-50-50.jpg" alt="facebook">
+                <span class="icon-16 icon-fb-16"></span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/avatar-soc-net-50-50.jpg" alt="twitter">
+                <span class="icon-16 icon-tw-16"></span>
+            </a>
+        </li>
+    </ul>
+    <button class="btn btn-default pull-left" type="button">
+        <span class="glyphicon glyphicon-plus"></span>
+    </button>
+
+</div>
+
+</div>
+
+<div class="row navtab">
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#">News <span class="glyphicon glyphicon-remove"></span>
+    </a></li>
+    <li><a href="#">Work <span class="glyphicon glyphicon-remove"></span>
+    </a></li>
+    <li><a href="#">Favourite <span class="glyphicon glyphicon-remove"></span>
+    </a></li>
+    <li>
+        <button class="btn btn-default pull-left" type="button">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </li>
+</ul>
+</div>
+
+<div class="row">
+
+<div class="row aftertabs">
+    <button class="btn btn-default pull-left" type="button">
+        <span class="glyphicon glyphicon-plus"></span> STREAM
+    </button>
+
+    <button class="btn btn-default pull-left" type="button">
+        <span class="glyphicon glyphicon-refresh"></span>
+    </button>
+
+
+</div>
+
+<div class="wrapper">
+
+    <div class="col-lg-4 stream">
+
+        <div class="stream-header fb">
+            <span class="icon-32 icon-fb-32"></span>
+            <span class="stream-title">Activity  <span class="badge-title">42</span></span>
+            <button type="button" class="close stream-close" aria-hidden="true">&times;</button>
+            <span class="stream-title-name">Sherlock Holmes</span>
+        </div>
+        <div class="clear"></div>
+        <div class="stream-scroll">
+
+            <div class="message-box">
+
+                <h3 class="activity-title">November 2013</h3>
+
+                <h3 class="activity-date"><i class="fa fa-bookmark-o"></i> Today</h3>
+
+
+                <div class="message-content">
+                    <div class="activity-action">
+                        <i class="fa fa-thumbs-o-up"></i>Olga likes <a href="#">status</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+                    <div class="activity-cover">
+                        <div class="message-top">
+                            <span class="message-top-ava"><img src="images/avatar-50-50.jpg" alt="test"></span>
+                            <div class="message-top-right">
+                                <a href="#" class="owner-name">British Council Ukraine </a>
+                            </div>
+                        </div>
+                        <div class="message-content clearfix">
+                            <div class="message-desc"> Sicily. Almost Indian summer!</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="message-content">
+                    <div class="activity-action">
+                        <i class="fa fa-quote-left"></i>Olga updated her <a href="#">status</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+                    <div class="activity-cover">
+                        <div class="message-content clearfix">
+                            <div class="message-desc"> Sicily. Almost Indian summer!</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="message-content">
+                    <div class="activity-action">
+                        <i class="fa fa-comments-o"></i>Olga commented on a <a href="#">status</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+                    <div class="activity-cover">
+                        <div class="message-top">
+                            <span class="message-top-ava"><img src="images/avatar-50-50.jpg" alt="test"></span>
+                            <div class="message-top-right">
+                                <a href="#" class="owner-name">British Council Ukraine </a>
+                            </div>
+                        </div>
+                        <div class="message-content clearfix">
+                            <div class="message-desc"> Sicily. Almost Indian summer!</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="message-content">
+
+                    <div class="activity-action">
+                        <i class="fa fa-thumbs-o-up"></i>Olga likes <a href="#">Rock.Kiev.Ua</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+
+                    <div class="activity-action">
+                        <i class="fa fa-thumbs-o-up"></i>Olga likes <a href="#">status</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+
+                    <div class="activity-action">
+                        <i class="fa fa-user"></i>Olga and <a href="#">Efrem Lukatsky</a> are now friends.
+                        <span class="activity-time">17:00</span>
+                    </div>
+
+                    <div class="activity-action">
+                        <i class="fa fa-rss"></i>Olga followed <a href="#">Andrey Chernikov</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+
+                    <div class="activity-action">
+                        <i class="fa fa-comments-o"></i>Olga commented on a <a href="#">photo</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+
+                    <div class="activity-action">
+                        <i class="fa fa-share"></i>Olga shared <a href="#">Andrij Bondar's status update</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+
+                    <div class="activity-action">
+                        <i class="fa fa-picture-o"></i>Olga posted a photo to <a href="#">Elena Lopatyna's timeline</a>.
+                        <span class="activity-time">17:00</span>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+                <h3 class="activity-date"><i class="fa fa-bookmark-o"></i> Yesterday</h3>
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</div>   <!-- wrapper end -->
+
+</div>
+
+        </div>
+
+        </div>
+
+        </body>
+        </html>
